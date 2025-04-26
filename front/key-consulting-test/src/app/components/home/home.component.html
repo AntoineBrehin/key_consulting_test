@@ -1,0 +1,14 @@
+<mat-toolbar class="header-toolbar">
+    <span>Key Consulting Démo </span>
+
+    <span>
+        <button mat-icon-button color="accent" tooltip="Afficher les tâches en attente" (click)="filterByCompleted()">
+            <mat-icon> filter_alt </mat-icon>
+        </button>
+        <button mat-icon-button color="accent" tooltip="Créer une nouvelle tâche " (click)="openCreateTaskDialog()">
+            <mat-icon> add </mat-icon>
+        </button>
+    </span>
+</mat-toolbar>
+
+<app-data-table></app-data-table>

@@ -1,0 +1,16 @@
+<mat-accordion>
+    <mat-expansion-panel hideToggle *ngFor="let task of tasksList">
+        <mat-expansion-panel-header>
+            <mat-panel-title> {{task.label}}</mat-panel-title>
+            <mat-panel-description> {{task.completed ? 'Terminé' : "En attente"}} </mat-panel-description>
+        </mat-expansion-panel-header>
+
+        <div>
+            <p>{{task.description}}</p>
+
+            <button mat-flat-button (click)="editTaskStatus(task)"> <mat-icon> edit </mat-icon> Éditer le statut </button>
+        </div>
+       
+    </mat-expansion-panel>
+
+</mat-accordion>
