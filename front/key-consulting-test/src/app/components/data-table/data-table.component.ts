@@ -27,7 +27,7 @@ export class DataTableComponent {
         task.completed = status;
       },
       error:(error:any) => {
-        console.error("Une erreur est survenue lors de la modification du status");
+        console.error("Une erreur est survenue lors de la modification du statut");
       }
     })
   }
