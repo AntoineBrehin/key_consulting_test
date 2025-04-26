@@ -6,7 +6,9 @@
         </mat-expansion-panel-header>
 
         <div>
-            <p>{{task.description}}</p>
+            <p> <b> Description : </b> {{task.description}}</p>
+            
+            <p> <b> ID : </b> {{task.id}} </p>
 
             <button mat-flat-button (click)="editTaskStatus(task)"> <mat-icon> edit </mat-icon> Éditer le statut </button>
         </div>
