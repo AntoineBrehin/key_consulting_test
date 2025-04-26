@@ -1,0 +1,5 @@
+com/keyconsulting/demo/KeyConsultingTestApplication.class
+com/keyconsulting/demo/ServletInitializer.class
+com/keyconsulting/demo/controller/TaskController.class
+com/keyconsulting/demo/service/TaskService.class
+com/keyconsulting/demo/model/Task.class
